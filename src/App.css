@@ -1,0 +1,32 @@
+.layout {
+  background: linear-gradient(
+    rgba(182, 202, 180, 0.574),
+    rgba(182, 221, 184, 0.542)
+  );
+}
+.login-page {
+  width: 400px;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 2rem;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.251);
+  margin: auto;
+  box-shadow: -5px 5px 15px 10px rgba(203, 203, 203, 0.64);
+}
+
+.form {
+  background: white;
+  border-radius: 5px;
+  padding: 1rem;
+  min-height: 100px;
+  box-shadow: -5px 5px 15px 5px rgba(128, 128, 128, 0.595);
+}
+
+.table {
+  margin-top: 2rem;
+  background: white;
+  border-radius: 5px;
+  padding: 1rem;
+  min-height: 100px;
+  box-shadow: -5px 5px 15px 5px rgba(128, 128, 128, 0.595);
+}
