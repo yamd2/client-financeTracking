@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import { TransForm } from "../components/form/TransForm";
 import { Layout } from "../components/layout/Layout";
 import { TransTable } from "../components/table/TransTable";
 import { fetchTrans } from "../utils/axiosHelper";
 
 const Dashboard = () => {
+  const Navigate = useNavigate();
   const [trans, setTrans] = useState([]);
 
   useEffect(() => {

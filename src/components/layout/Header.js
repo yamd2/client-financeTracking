@@ -12,6 +12,11 @@ export const Header = () => {
     setuser(user);
   }, []);
 
+  const handleOnLogout = () => {
+    //remove key from session storage as there is key and value
+    sessionStorage.removeItem("user");
+  };
+
   return (
     <Navbar bg="primary" expand="md" variant="dark">
       <Container>
@@ -25,7 +30,7 @@ export const Header = () => {
                 <div className="nav-link fw-bolder text-warning">
                   Welcom back {user?.name}
                 </div>
-                <Link to="#" className="nav-link">
+                <Link to="/" className="nav-link" onClick={handleOnLogout}>
                   Logout
                 </Link>
               </>
