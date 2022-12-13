@@ -12,7 +12,7 @@ export const Login = () => {
   const navigate = useNavigate();
 
   const [form, setForm] = useState({
-    email: "prem.acharya@hotmail.com",
+    email: "yam.dangar@hotmail.com",
     pin: 3333,
   });
   const [response, setResponse] = useState({});
